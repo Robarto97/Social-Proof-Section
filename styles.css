@@ -25,7 +25,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
   height: 100vh;
-  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-image: url(images/bg-pattern-top-desktop.svg),
+    url(images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
@@ -158,37 +159,37 @@ body {
 }
 
 /* Mobile device styles */
-@media screen and (max-width:375px){
-    body{
-        background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-        padding: 1.5rem;
-        text-align: center;
-        gap: 1rem;
-    }
-    .container .text h1{
-        font-size: 2.5rem;
-    }
-    .container .stars{
-        display: flex;
-        flex-direction: column;
-    }
-    .container .stars .star{
-        flex-direction: column;
-        gap: 1rem;
-    }
-    .container .users{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        text-align: left;
-        margin-top: 2rem;
-    }
-    .container .users .user .bottom p{
-        font-size: 1.15rem;
-    }
-    
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url(images/bg-pattern-top-mobile.svg),
+      url(images/bg-pattern-bottom-mobile.svg);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    text-align: center;
+    gap: 1rem;
+  }
+  .container .text h1 {
+    font-size: 2.5rem;
+  }
+  .container .stars {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .stars .star {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .container .users {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+    margin-top: 2rem;
+  }
+  .container .users .user .bottom p {
+    font-size: 1.15rem;
+  }
 }
