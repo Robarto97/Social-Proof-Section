@@ -29,7 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
-
+/* Container */
 .container {
   max-width: 1000px;
   display: grid;
@@ -37,6 +37,7 @@ body {
   gap: 5rem;
 }
 
+/* Feedback */
 .container .text {
   width: 100%;
 }
@@ -52,6 +53,8 @@ body {
   color: var(--dark-grayish-magenta);
   font-weight: 500;
 }
+
+/* Star ratings */
 .container .stars {
   width: 100%;
   display: grid;
@@ -86,6 +89,7 @@ body {
   grid-column-end: 11;
 }
 
+/* Users review */
 .container .users {
   grid-column: 1 / span 2;
   display: grid;
@@ -153,7 +157,7 @@ body {
   color: var(--light-grayish-magenta);
 }
 
-
+/* Mobile device styles */
 @media screen and (max-width:375px){
     body{
         background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
